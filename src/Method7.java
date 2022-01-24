@@ -13,7 +13,7 @@ public class Method7 {
 		int j = 2;
 		int res = 0; 
 		double res2 =0.;
-		res = add(i,j);		// 더하기
+		res = add(i,j);		// 더하기DFD
 		System.out.println(i +"+" + j +"=" + res);
 		
 		res = minus(i,j);		// 빼기
