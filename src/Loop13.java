@@ -1,6 +1,6 @@
 /**
- * ¹Ýº¹ Á¦¾î: break;
- * @author smart02 ¡Ú
+ * ë°˜ë³µ ì œì–´: break;
+ * @author smart02 â˜…
  */
 public class Loop13 {
 

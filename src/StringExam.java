@@ -1,5 +1,5 @@
 /**
- * ¹®ÀÚ¿­ String Å¬·¡½º + equals
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤ + equals
  * @author smart02
  *
  */

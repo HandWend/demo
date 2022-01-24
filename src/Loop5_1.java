@@ -1,7 +1,7 @@
 /**
 * 
 * @author smart02
-* 2022³â ´Ş·ÂÀ» Ãâ·ÂÇÏ½Ã¿À. 
+* 2022ë…„ ë‹¬ë ¥ì„ ì¶œë ¥í•˜ì‹œì˜¤. 
 */
 public class Loop5_1 {
 
@@ -28,7 +28,7 @@ public class Loop5_1 {
 				break;
 			}
 			
-			System.out.println(j+"¿ù ");
+			System.out.println(j+"ì›” ");
 			for (int dayOfMonth = 1; dayOfMonth<=lastDayOfMonth; dayOfMonth++ ) {
 				System.out.print(dayOfMonth+" ");	
 			}

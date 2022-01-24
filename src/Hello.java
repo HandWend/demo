@@ -1,12 +1,12 @@
 /**
- * ÀÌ°ÍÀÌ ÀÚ¹Ù´Ù ¿¡Á¦ 1
+ * ì´ê²ƒì´ ìë°”ë‹¤ ì—ì œ 1
  * @author smart02
- * Å¬·¡½º ¼³¸í¶õ
+ * í´ë˜ìŠ¤ ì„¤ëª…ë€
  */
 public class Hello {
 
 	public static void main(String[] args) {
-		/* ÇÑÁÙÁÖ¼® */
+		/* í•œì¤„ì£¼ì„ */
 		System.out.println("Hello, Welcome to the java world");
 
 		

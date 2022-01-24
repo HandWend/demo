@@ -1,6 +1,6 @@
 /**
  * 
- * @author smart02 ¡Ú
+ * @author smart02 â˜…
  */
 public class Loop12 {
 

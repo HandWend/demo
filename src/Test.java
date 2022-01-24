@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 
 /**
- * ·Î¶Ç
+ * ë¡œë˜
  * @author smart02
  *
  */
@@ -10,18 +10,18 @@ public class Test {
 
 	public static void main(String[] args) {
 		
-		HashSet<Integer> hs = new HashSet<Integer>(); // ³×¸ğ ¹Ú½º ¸¸µé¾î¼­ ±× ¾È¿¡ ¼ıÀÚ ³Ö±â
+		HashSet<Integer> hs = new HashSet<Integer>(); // ë„¤ëª¨ ë°•ìŠ¤ ë§Œë“¤ì–´ì„œ ê·¸ ì•ˆì— ìˆ«ì ë„£ê¸°
 		for (int i=0; i<5; i++)
 		while(true) {
 			hs.add((int)(Math.random()*45)+1);
 			System.out.println((int)(Math.random()*45)+1);
 			
 			if(hs.size() == 6 ) {
-				break; // ¹İº¹¹® ºüÁ®³ª°¨.
+				break; // ë°˜ë³µë¬¸ ë¹ ì ¸ë‚˜ê°.
 			}
 		}
 		
-		// 2022-01-15 ·Î¶Ç 1µî ¹øÈ£ 6°³ Ãâ·Â
+		// 2022-01-15 ë¡œë˜ 1ë“± ë²ˆí˜¸ 6ê°œ ì¶œë ¥
 		System.out.println(hs);
 	}
 

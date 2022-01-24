@@ -2,34 +2,34 @@
 public class Controlflow4 {
 
 	public static void main(String[] args) {
-		// if¹®
+		// ifë¬¸
 		int i = 1;
 		switch (++i) {
-		case 1: // °ªÀ» ¾Ë°í ÀÖÀ» ¶§ switch¹® ÀÛ¼º. 
-			System.out.println("1ÀÔ´Ï´Ù.");
+		case 1: // ê°’ì„ ì•Œê³  ìˆì„ ë•Œ switchë¬¸ ì‘ì„±. 
+			System.out.println("1ì…ë‹ˆë‹¤.");
 			break;
 		case 2:
-			System.out.println("2ÀÔ´Ï´Ù.");
+			System.out.println("2ì…ë‹ˆë‹¤.");
 			break;
 		case 3:
-			System.out.println("3ÀÔ´Ï´Ù.");
+			System.out.println("3ì…ë‹ˆë‹¤.");
 			break;
 		case 4:
-			System.out.println("4ÀÔ´Ï´Ù.");
+			System.out.println("4ì…ë‹ˆë‹¤.");
 			break;
 		case 5:
-			System.out.println("5ÀÔ´Ï´Ù.");
+			System.out.println("5ì…ë‹ˆë‹¤.");
 			break;
 		default:
-			System.out.println("1~5¾È¿¡ °ªÀÌ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("1~5ì•ˆì— ê°’ì´ ì•„ë‹™ë‹ˆë‹¤.");
 			break;
 		}
-		if (i > 5) { // if´Â ¹üÀ§ ÁöÁ¤.
-				System.out.println("5º¸´Ù Å®´Ï´Ù.");
+		if (i > 5) { // ifëŠ” ë²”ìœ„ ì§€ì •.
+				System.out.println("5ë³´ë‹¤ í½ë‹ˆë‹¤.");
 		} else if (i == 5) {  
-				System.out.println("5¶û °°½À´Ï´Ù.");
+				System.out.println("5ë‘ ê°™ìŠµë‹ˆë‹¤.");
 		} else  {
-			System.out.println("5º¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("5ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤.");
 			
 		}
 }

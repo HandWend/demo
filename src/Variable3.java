@@ -10,10 +10,10 @@ public class Variable3 { // class block
 			// i annouces in this block.
 		}
 		// System.out.println(i); none variable(i)
-		// °®°í ³î±â
+		// ê°–ê³  ë†€ê¸°
 		{
 			/*
-			 * int i; i = 1; System.out.println(i); int i; i = 1; Áßº¹ º¯¼ö¶ó¼­ ¸·Èû.
+			 * int i; i = 1; System.out.println(i); int i; i = 1; ì¤‘ë³µ ë³€ìˆ˜ë¼ì„œ ë§‰í˜.
 			 * System.out.println(i);
 			 */
 		}

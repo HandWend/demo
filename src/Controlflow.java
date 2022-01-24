@@ -2,22 +2,22 @@
 public class Controlflow {
 
 	public static void main(String[] args) {
-		// if¹®
+		// ifë¬¸
 		int i = 4;
-		{	// Áö¿ª
+		{	// ì§€ì—­
 			if (i > 5) {
-				System.out.println("5º¸´Ù Å®´Ï´Ù.");
+				System.out.println("5ë³´ë‹¤ í½ë‹ˆë‹¤.");
 			}
 		}
 
-		{	// Áö¿ª
+		{	// ì§€ì—­
 			if (i == 5) {
-				System.out.println("5¶û °°½À´Ï´Ù.");
+				System.out.println("5ë‘ ê°™ìŠµë‹ˆë‹¤.");
 			}
 		}
-		{	// Áö¿ª
+		{	// ì§€ì—­
 			if (i < 5) {
-				System.out.println("5º¸´Ù ÀÛ½À´Ï´Ù.");
+				System.out.println("5ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤.");
 			}
 		}
 

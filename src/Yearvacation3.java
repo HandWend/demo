@@ -5,31 +5,31 @@ public class Yearvacation3 {
 		
 		
 		
-		int i=1; // °³¿ù Â÷
+		int i=1; // ê°œì›” ì°¨
 		int j=0;
 		int k=3;
 		
 		while (i<=12) {
-			System.out.printf("´ç½ÅÀº %d°³¿ù °£ ÀÏÇÏ¿´½À´Ï´Ù.\n", i);
-			System.out.printf("´ç½ÅÀÇ ¿¬Â÷´Â %dÀÏÀÌ µÇ¾ú½À´Ï´Ù.\n", j);
+			System.out.printf("ë‹¹ì‹ ì€ %dê°œì›” ê°„ ì¼í•˜ì˜€ìŠµë‹ˆë‹¤.\n", i);
+			System.out.printf("ë‹¹ì‹ ì˜ ì—°ì°¨ëŠ” %dì¼ì´ ë˜ì—ˆìŠµë‹ˆë‹¤.\n", j);
 			System.out.println("===");
 			i++;
 			j++;
 			
 		}
-		System.out.println("1³âÂ÷ ¶§ ÈÞ°¡¸¦ »ç¿ëÇÏÁö ¾ÊÀ¸¸é ´ÙÀ½ ÇØ·Î ÀÌ¿ùµË´Ï´Ù.");
+		System.out.println("1ë…„ì°¨ ë•Œ íœ´ê°€ë¥¼ ì‚¬ìš©í•˜ì§€ ì•Šìœ¼ë©´ ë‹¤ìŒ í•´ë¡œ ì´ì›”ë©ë‹ˆë‹¤.");
 		switch (k) {
-		case 2:System.out.println("´ç½ÅÀÇ ¿¬Â÷´Â 15ÀÏÀÔ´Ï´Ù."); break;
-		case 3: case 4: System.out.println("16ÀÏ"); break;
-		case 5: case 6: System.out.println("17ÀÏ"); break;
-		case 7: case 8: System.out.println("18ÀÏ"); break;
-		case 9: case 10: System.out.println("19ÀÏ"); break;
-		case 11: case 12: System.out.println("20ÀÏ"); break;
-		case 13: case 14: System.out.println("21ÀÏ"); break;
-		case 15: case 16: System.out.println("22ÀÏ"); break;
-		case 17: case 18: System.out.println("23ÀÏ"); break;
-		case 19: case 20: System.out.println("24ÀÏ"); break; 
-		default : System.out.println("25ÀÏ");
+		case 2:System.out.println("ë‹¹ì‹ ì˜ ì—°ì°¨ëŠ” 15ì¼ìž…ë‹ˆë‹¤."); break;
+		case 3: case 4: System.out.println("16ì¼"); break;
+		case 5: case 6: System.out.println("17ì¼"); break;
+		case 7: case 8: System.out.println("18ì¼"); break;
+		case 9: case 10: System.out.println("19ì¼"); break;
+		case 11: case 12: System.out.println("20ì¼"); break;
+		case 13: case 14: System.out.println("21ì¼"); break;
+		case 15: case 16: System.out.println("22ì¼"); break;
+		case 17: case 18: System.out.println("23ì¼"); break;
+		case 19: case 20: System.out.println("24ì¼"); break; 
+		default : System.out.println("25ì¼");
 			
 		
 		}

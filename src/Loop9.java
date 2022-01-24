@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
-* ÇÇº¸³ªÄ¡ ¼ö¿­ (for, scanner)
+* í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ (for, scanner)
 * @author smart02
 * 
 */
@@ -9,7 +9,7 @@ public class Loop9 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("¾Æ·¡¿¡ ¹İº¹ÇÒ È½¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("ì•„ë˜ì— ë°˜ë³µí•  íšŸìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		int m = 0;
 		int n = 1;
 		int o = m + n;

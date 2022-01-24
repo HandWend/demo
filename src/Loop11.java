@@ -1,12 +1,12 @@
 /**
- * º° Âï±â
+ * ë³„ ì°ê¸°
  * 
- * @author smart02 ¡Ú
+ * @author smart02 â˜…
  */
 public class Loop11 {
 
 	public static void main(String[] args) {
-		// º° Âï±â (starÀÇ s, ¹İº¹ÀÇ r)
+		// ë³„ ì°ê¸° (starì˜ s, ë°˜ë³µì˜ r)
 		for (int s = 1; s <= 5; s++) {
 			System.out.println("");
 			for (int r = 1; r <= s; r++) {

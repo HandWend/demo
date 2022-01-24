@@ -1,5 +1,5 @@
 /**
- * ¹®ÀÚ¿­ String Å¬·¡½º + equals
+ * ë¬¸ìì—´ String í´ë˜ìŠ¤ + equals
  * @author smart02
  *
  */
@@ -10,7 +10,7 @@ public class StringExam2 {
 		String str2 = ("abc");
 		System.out.println(str == str2);
 		System.out.println(str.equals(str2));
-		// ¹®ÀÚ¿­ ºñ±³´Â equals, not ==
+		// ë¬¸ìì—´ ë¹„êµëŠ” equals, not ==
 		System.out.println(str);
 		System.out.println(str2);
 	}

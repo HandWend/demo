@@ -1,5 +1,5 @@
 /**
- * È¦Â¦ È®ÀÎ ÇÁ·Î±×·¥ ÀÛ¼ºÇÏ½Ã¿À
+ * í™€ì§ í™•ì¸ í”„ë¡œê·¸ë¨ ì‘ì„±í•˜ì‹œì˜¤
  * @author smart02
  *
  */
@@ -9,58 +9,58 @@ public class Controlflow8 {
 		/*int i=59;
 		// System.out.println("[DEG]"+(i%2==0));
 		if (i % 2 == 0) {
-			System.out.println("i´Â Â¦¼öÀÔ´Ï´Ù.");
+			System.out.println("iëŠ” ì§ìˆ˜ì…ë‹ˆë‹¤.");
 		} else { 
-			System.out.println("i´Â È¦¼öÀÔ´Ï´Ù."); 
+			System.out.println("iëŠ” í™€ìˆ˜ì…ë‹ˆë‹¤."); 
 		}*/
 
 		/*int i=1;
 		if (i % 3 == 1 ) {
-			System.out.println("¼Õ´ÔÀÇ ½Â¸®ÀÔ´Ï´Ù.");
+			System.out.println("ì†ë‹˜ì˜ ìŠ¹ë¦¬ì…ë‹ˆë‹¤.");
 		}
 		else if (i % 3==2) {
-			System.out.println("¼Õ´ÔÀÇ ½Â¸®ÀÔ´Ï´Ù.");
+			System.out.println("ì†ë‹˜ì˜ ìŠ¹ë¦¬ì…ë‹ˆë‹¤.");
 		}else {
-			System.out.println("³ªÀÇ ½Â¸®ÀÔ´Ï´Ù.");
+			System.out.println("ë‚˜ì˜ ìŠ¹ë¦¬ì…ë‹ˆë‹¤.");
 		}*/
 	
-		//°¡À§¹ÙÀ§º¸ ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À
-		int user1 = (int)(Math.random()*3)+1; //º»ÀÎ
-		int user2 = (int)(Math.random()*3)+1; //»ó´ë¹æ
+		//ê°€ìœ„ë°”ìœ„ë³´ í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤
+		int user1 = (int)(Math.random()*3)+1; //ë³¸ì¸
+		int user2 = (int)(Math.random()*3)+1; //ìƒëŒ€ë°©
 		
 		if (user1==1) {
-			System.out.println("³ª´Â °¡À§");
+			System.out.println("ë‚˜ëŠ” ê°€ìœ„");
 		} else if (user1==2) {
-			System.out.println("³ª´Â ¹ÙÀ§");
+			System.out.println("ë‚˜ëŠ” ë°”ìœ„");
 		} else { 
-			System.out.println("³ª´Â º¸");
+			System.out.println("ë‚˜ëŠ” ë³´");
 		}
 		
 		if (user2==1) {
-			System.out.println("»ó´ë¹æÀº °¡À§");
+			System.out.println("ìƒëŒ€ë°©ì€ ê°€ìœ„");
 		} else if (user2==2) {
-			System.out.println("»ó´ë¹æÀº ¹ÙÀ§");
+			System.out.println("ìƒëŒ€ë°©ì€ ë°”ìœ„");
 		} else { 
-			System.out.println("»ó´ë¹æÀº º¸");
+			System.out.println("ìƒëŒ€ë°©ì€ ë³´");
 		}
 		if (user1 == 1 && user2==1) {
-			System.out.println("ºñ°å½À´Ï´Ù.");
+			System.out.println("ë¹„ê²¼ìŠµë‹ˆë‹¤.");
 		} else if (user1==1 && user2 ==2) {
-			System.out.println("¤Ğ¤Ğ");
+			System.out.println("ã… ã… ");
 		} else if (user1==1 && user2==3) {
-			System.out.println("¤¾¤¾");
+			System.out.println("ã…ã…");
 		} else if(user1 == 2 && user2==1) {
-			System.out.println("¤¾¤¾");
+			System.out.println("ã…ã…");
 		} else if (user1==2 && user2==2) {
-			System.out.println("ºñ±è");
+			System.out.println("ë¹„ê¹€");
 		} else if (user1==2 && user2==3) {
-			System.out.println("¤Ğ¤Ğ");
+			System.out.println("ã… ã… ");
 		} else if(user1 ==3 && user2==1) {
-			System.out.println("¤Ğ¤Ğ");
+			System.out.println("ã… ã… ");
 		} else if (user1==3 && user2==2) {
-			System.out.println("¤¾¤¾");
+			System.out.println("ã…ã…");
 		} else if (user1==3 && user2==3) {
-			System.out.println("ºñ±è.");
+			System.out.println("ë¹„ê¹€.");
 		} 
 		
 	}

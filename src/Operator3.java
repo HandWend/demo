@@ -2,23 +2,23 @@
 public class Operator3 {
 
 	public static void main(String[] args) { // country
-		// +¿¬»êÀÚ ¹®ÀÚ¿­À» ¿¬°áÇØÁÖ´Â ¿¬»êÀÚ
+		// +ì—°ì‚°ì ë¬¸ìì—´ì„ ì—°ê²°í•´ì£¼ëŠ” ì—°ì‚°ì
 		
-		System.out.println('1'+1); // '': charµµ Á¤¼ö
+		System.out.println('1'+1); // '': charë„ ì •ìˆ˜
 		System.out.println((char)('1'+1)); 
-		System.out.println("1"+1); // "": ¹®ÀÚ¿­
+		System.out.println("1"+1); // "": ë¬¸ìì—´
 		
-		System.out.println("1"+1+2+3); // ¸ğµç ¼ıÀÚÀÇ ¹®ÀÚÈ­
+		System.out.println("1"+1+2+3); // ëª¨ë“  ìˆ«ìì˜ ë¬¸ìí™”
 		System.out.println("1"+(1+2+3)); // 16
-		System.out.println(1+2+3+"1"); // ³¡ ¼ıÀÚ¸¦ ÅëÇÑ ¹®ÀÚÈ­
+		System.out.println(1+2+3+"1"); // ë ìˆ«ìë¥¼ í†µí•œ ë¬¸ìí™”
 		
 		
 	}
 	{
 		int i, j, k;
-		// ´ëÀÔ ¿ì¼±¼øÀ§
+		// ëŒ€ì… ìš°ì„ ìˆœìœ„
 		
-		i = j = k = 5; // ¿ìÃøºÎÅÍ ÁÂ·Î ÇÑ Ä­¾¿
+		i = j = k = 5; // ìš°ì¸¡ë¶€í„° ì¢Œë¡œ í•œ ì¹¸ì”©
 		
 	}
 

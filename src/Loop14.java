@@ -1,20 +1,20 @@
 /**
- * ¹Ýº¹ Á¦¾î: continue
- * @author smart02 ¡Ú
+ * ë°˜ë³µ ì œì–´: continue
+ * @author smart02 â˜…
  */
 public class Loop14 {
 
 	public static void main(String[] args) {
 		
 		for (int s = 0; s < 10; s++) {
-			// System.out.println(s); 5 µé¾î°¨.
+			// System.out.println(s); 5 ë“¤ì–´ê°.
 			// (1) if s == 5 continue
 			// (2) s % = 1, continue
 			// (3) s % 2 = 0, continue
 			if (s %2 == 0) {
 			continue;
 			}
-			System.out.println(s); // 5 µé¾î°¡Áö ¾ÊÀ½.
+			System.out.println(s); // 5 ë“¤ì–´ê°€ì§€ ì•ŠìŒ.
 		}
 	}
 }

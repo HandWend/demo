@@ -1,7 +1,7 @@
 /**
- * 369 3ÀÇ ¹è¼öÀÏ ¶© Â¦! System.out.println("Â¦");
+ * 369 3ì˜ ë°°ìˆ˜ì¼ ë• ì§! System.out.println("ì§");
  * 
- * @author smart02 ¡Ú
+ * @author smart02 â˜…
  */
 public class Loop16 {
 
@@ -12,7 +12,7 @@ public class Loop16 {
 		while (i <= 50) {
 			i++;
 			if (i % 3 == 0) {
-				System.out.printf("Â¦\n");
+				System.out.printf("ì§\n");
 				
 				continue;
 			}

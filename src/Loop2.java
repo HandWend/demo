@@ -1,14 +1,14 @@
 /**
 * 
 * @author smart02
-* ±¸±¸´ÜÀ» ¿ÜÀÚ!
+* êµ¬êµ¬ë‹¨ì„ ì™¸ì!
 */
 public class Loop2 {
 
 	public static void main(String[] args) {
 		for (int n = 1; n <=9; n++) {
 			System.out.println("============");
-			System.out.println(n+"´Ü");
+			System.out.println(n+"ë‹¨");
 			for (int i=0; i<10; i++) {
 			  if (n>=1 && n<=9 && i>0) {
 				

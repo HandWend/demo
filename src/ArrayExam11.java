@@ -1,17 +1,17 @@
 import java.util.Scanner;
 /**
  * @author smart02
- * n * n ¸¶¹æÁø 
+ * n * n ë§ˆë°©ì§„ 
 */
 public class ArrayExam11 {
 
 	public static void main(String[] args) {
-		// ¸¶¹æÁø ¼ö¸¦ ±¸ÇÏ½Ã¿À.
-		int cube = 7;  // ¸¶¹æÁø n´Ü cube °ª¸¸ ¹Ù²ãÁÖ¸é µÊ.
-		int sum = 0;	// 1ºÎÅÍ 25ÀÇ ÇÕ
-		int chkNum = 0;  // ÇÏ³ªÀÇ ¶óÀÎÀÇ ÇÕ.
+		// ë§ˆë°©ì§„ ìˆ˜ë¥¼ êµ¬í•˜ì‹œì˜¤.
+		int cube = 7;  // ë§ˆë°©ì§„ në‹¨ cube ê°’ë§Œ ë°”ê¿”ì£¼ë©´ ë¨.
+		int sum = 0;	// 1ë¶€í„° 25ì˜ í•©
+		int chkNum = 0;  // í•˜ë‚˜ì˜ ë¼ì¸ì˜ í•©.
 		
-		// ÀüÃ¼ÇÕ ±¸ÇÏ½Ã¿À.
+		// ì „ì²´í•© êµ¬í•˜ì‹œì˜¤.
 		for (int i = 1; i<= (cube * cube); i++) {
 			sum +=i;
 		}
@@ -25,9 +25,9 @@ public class ArrayExam11 {
 						{12, 3, 43, 41, 32, 23, 21},
 						{20, 11, 2, 49, 40, 31, 22},
 						{28, 19, 10, 1, 48, 39, 30}
-						}; // ¸¶¹æÁø Ã¼Å©
+						}; // ë§ˆë°©ì§„ ì²´í¬
 		
-		// °¡·Î¿­ Ã¼Å©
+		// ê°€ë¡œì—´ ì²´í¬
 		int rowCntChk = 0;
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
@@ -35,11 +35,11 @@ public class ArrayExam11 {
 			}
 		}
 		if (rowCntChk != (chkNum*cube)) {
-			System.out.println("¿À´ä1");
+			System.out.println("ì˜¤ë‹µ1");
 			return;
 		}
 		
-		// ¼¼·Î¿­ Ã¼Å©
+		// ì„¸ë¡œì—´ ì²´í¬
 		int colCntChk = 0;
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
@@ -47,11 +47,11 @@ public class ArrayExam11 {
 			}
 		}
 		if (colCntChk!=chkNum*cube) {
-			System.out.println("¿À´ä2");
+			System.out.println("ì˜¤ë‹µ2");
 			return;
 		}
 		
-		// ¿ŞÂÊ ´ë°¢¼± À§¿¡¼­ ¿À¸¥ÂÊ ¾Æ·¡·Î 
+		// ì™¼ìª½ ëŒ€ê°ì„  ìœ„ì—ì„œ ì˜¤ë¥¸ìª½ ì•„ë˜ë¡œ 
 		int leftTop = 0; 
 		for (int i = 0; i < arr.length; i++) {
 			// 2
@@ -62,11 +62,11 @@ public class ArrayExam11 {
 			}
 		}
 		if (leftTop != chkNum) {
-			System.out.println("¿À´ä3");
+			System.out.println("ì˜¤ë‹µ3");
 			return;
 		}
 		
-		// ¿À¸¥ÂÊ À§¿¡¼­ ¿ŞÂÊ ¾Æ·¡·Î
+		// ì˜¤ë¥¸ìª½ ìœ„ì—ì„œ ì™¼ìª½ ì•„ë˜ë¡œ
 		int rightTop = 0;
 		for (int i = 0; i < arr.length; i++) {
 			// 2
@@ -77,9 +77,9 @@ public class ArrayExam11 {
 			}
 		}
 		if (rightTop != chkNum) {
-			System.out.println("¿À´ä4");
+			System.out.println("ì˜¤ë‹µ4");
 			return;
 		}
-		System.out.println("Á¤´ä");
+		System.out.println("ì •ë‹µ");
 	}
 }

@@ -7,7 +7,7 @@ import java.net.Socket;
 import javax.print.DocFlavor.INPUT_STREAM;
 
 /**
- * ¼ÒÄÏÅë½Å Server ±¸Ãà
+ * ì†Œì¼“í†µì‹  Server êµ¬ì¶•
  * @author smart02
  *
  */
@@ -23,21 +23,21 @@ public class Server extends Thread {
 			
 
 			while(true) {
-				System.out.println("socket ¿¬°á ´ë±â");
+				System.out.println("socket ì—°ê²° ëŒ€ê¸°");
 				Socket socket = serverSocket.accept();
-				System.out.println("host: "+ socket.getInetAddress()+"Åë½Å ¿¬°á¼º°ø");
+				System.out.println("host: "+ socket.getInetAddress()+"í†µì‹  ì—°ê²°ì„±ê³µ");
 				// input, output
 				InputStream is = socket.getInputStream();
 				OutputStream os = socket.getOutputStream();
 				
-				// buffer¸¦ ÅëÇØ µ¥ÀÌÅÍ ÀĞ¾îµéÀÌ±â
+				// bufferë¥¼ í†µí•´ ë°ì´í„° ì½ì–´ë“¤ì´ê¸°
 				byte[] data = new byte[16];
 				int n = is.read(data);
-				// °Ì³ª ±æ°Ô ¿Íµµ Ã³À½ºÎÅÍ 16±ÛÀÚ±îÁö¸¸ ¹Ş¾ÆµéÀÌ°Ú´Ù.
+				// ê²ë‚˜ ê¸¸ê²Œ ì™€ë„ ì²˜ìŒë¶€í„° 16ê¸€ìê¹Œì§€ë§Œ ë°›ì•„ë“¤ì´ê² ë‹¤.
 				final String messageFromClient = new String(data,0,n);
-				// clientÀÇ ¸Ş½ÃÁö Ãâ·Â.
+				// clientì˜ ë©”ì‹œì§€ ì¶œë ¥.
 				System.out.println(messageFromClient);
-				// byte·Î ¹Ş°Ú´Ù.
+				// byteë¡œ ë°›ê² ë‹¤.
 				os.write(MASSAGE_TO_CLIENT.getBytes());
 				os.flush();
 				

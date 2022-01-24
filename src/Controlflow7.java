@@ -1,5 +1,5 @@
 /**
- * È¦Â¦ È®ÀÎ ÇÁ·Î±×·¥ ÀÛ¼ºÇÏ½Ã¿À
+ * í™€ì§ í™•ì¸ í”„ë¡œê·¸ë¨ ì‘ì„±í•˜ì‹œì˜¤
  * @author smart02
  *
  */
@@ -9,9 +9,9 @@ public class Controlflow7 {
 		int i=59;
 		// System.out.println("[DEG]"+(i%2==0));
 		if (i % 2 == 0) {
-			System.out.println("i´Â Â¦¼öÀÔ´Ï´Ù.");
+			System.out.println("iëŠ” ì§ìˆ˜ì…ë‹ˆë‹¤.");
 		} else { 
-			System.out.println("i´Â È¦¼öÀÔ´Ï´Ù."); 
+			System.out.println("iëŠ” í™€ìˆ˜ì…ë‹ˆë‹¤."); 
 		}
 }
 }

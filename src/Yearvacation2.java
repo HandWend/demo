@@ -7,46 +7,46 @@ public class Yearvacation2 {
 		switch (i) {
 		case 1:
 		case 2:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 15ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 15ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 3:
 		case 4:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 16ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 16ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 5:
 		case 6:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 17ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 17ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 7:
 		case 8:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 18ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 18ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 9:
 		case 10:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 19ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 19ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 11:
 		case 12:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 20ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 20ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 13:
 		case 14:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 21ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 21ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 15:
 		case 16:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 22ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 22ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 17:
 		case 18:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 23ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 23ì¼ì…ë‹ˆë‹¤.");
 			break;
 		case 19:
 		case 20:
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 24ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 24ì¼ì…ë‹ˆë‹¤.");
 			break;
 		default :
-			System.out.println("¿ÃÇØ ¿¬Â÷´Â 25ÀÏÀÔ´Ï´Ù.");
+			System.out.println("ì˜¬í•´ ì—°ì°¨ëŠ” 25ì¼ì…ë‹ˆë‹¤.");
 			break;
 			
 		}

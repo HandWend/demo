@@ -1,25 +1,25 @@
 /**
-* for¹® / while¹®
+* forë¬¸ / whileë¬¸
 * @author smart02
-* 1ºÎÅÍ 10±îÁö Ãâ·Â
+* 1ë¶€í„° 10ê¹Œì§€ ì¶œë ¥
 */
 public class Loop1 {
 
 	public static void main(String[] args) {
 		{for (int i=1; i<=10; i++) {
-			System.out.printf("iÀÇ °ªÀº %dÀÔ´Ï´Ù.\n", i);
+			System.out.printf("iì˜ ê°’ì€ %dìž…ë‹ˆë‹¤.\n", i);
 			}
 		}
 		System.out.println("====== for ======");
 		{for (int k=1; k<=10; ++k) {
-			System.out.printf("kÀÇ °ªÀº %dÀÔ´Ï´Ù.\n", k);
+			System.out.printf("kì˜ ê°’ì€ %dìž…ë‹ˆë‹¤.\n", k);
 		}
 		}
 		System.out.println("====== for ======");
 		{
 			int j=1;
 			while (j<=10) {
-			System.out.printf("jÀÇ °ªÀº %dÀÔ´Ï´Ù.\n", j);
+			System.out.printf("jì˜ ê°’ì€ %dìž…ë‹ˆë‹¤.\n", j);
 			j++;
 			}
 		}
@@ -27,13 +27,13 @@ public class Loop1 {
 		{
 			int l=1;
 			while (l<=10) {
-			System.out.printf("lÀÇ °ªÀº %dÀÔ´Ï´Ù.\n", l);
+			System.out.printf("lì˜ ê°’ì€ %dìž…ë‹ˆë‹¤.\n", l);
 			++l;
 			}
 		}
 		System.out.println("============");
 		{
-			// do ~ while: ÃÊ±â°ªÀ» ÁÖ°í µ¹¸®´Â °Í.
+			// do ~ while: ì´ˆê¸°ê°’ì„ ì£¼ê³  ëŒë¦¬ëŠ” ê²ƒ.
 			int i = 1;
 			do {
 				System.out.println(i + ". joker");
@@ -43,14 +43,14 @@ public class Loop1 {
 		}
 		System.out.println("===== for =======");
 		{
-			// 1ºÎÅÍ 10±îÁö ÇÕÀÇ °è»ê°úÁ¤À» Ãâ·ÂÇÏ½Ã¿À.
+			// 1ë¶€í„° 10ê¹Œì§€ í•©ì˜ ê³„ì‚°ê³¼ì •ì„ ì¶œë ¥í•˜ì‹œì˜¤.
 			int sum=0;
 			for (int m = 1; m <= 100; m++) {
 				 System.out.println(sum); 
 				sum+=m;
 			}
 			System.out.println("============");
-			System.out.println(sum); // °á°ú°ª¸¸ Ãâ·Â.
+			System.out.println(sum); // ê²°ê³¼ê°’ë§Œ ì¶œë ¥.
 		}	
 	}
 }

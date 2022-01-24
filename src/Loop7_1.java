@@ -3,9 +3,9 @@ import java.time.LocalDateTime;
 import java.util.Date;
 
 /**
-* »ç¿ë ÁßÀÎ ÄÄÇ»ÅÍ ½Ã°£ Ãâ·ÂÇÏ±â
+* ì‚¬ìš© ì¤‘ì¸ ì»´í“¨í„° ì‹œê°„ ì¶œë ¥í•˜ê¸°
 * @author smart02
-* 2022³â ´Ş·ÂÀ» Ãâ·ÂÇÏ½Ã¿À. 
+* 2022ë…„ ë‹¬ë ¥ì„ ì¶œë ¥í•˜ì‹œì˜¤. 
 */
 public class Loop7_1 {
 

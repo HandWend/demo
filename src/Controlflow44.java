@@ -5,19 +5,19 @@ public class Controlflow44 {
 		// switch
 		switch (5) {
 		case (1):
-			System.out.println("╢У д©╬ъ гу╢о╢ы.");
+			System.out.println("К█■ Л╩╓Л∙╪ М∙╘К▀┬К▀╓.");
 			break;
 		case (2):
-			System.out.println("╢У д©╬ъ гу╢о╢ы.");
+			System.out.println("К█■ Л╩╓Л∙╪ М∙╘К▀┬К▀╓.");
 			break;
 		case (3):
-			System.out.println("╢У д©╬ъ гу╢о╢ы.");
+			System.out.println("К█■ Л╩╓Л∙╪ М∙╘К▀┬К▀╓.");
 			break;
 		case (4):
-			System.out.println("╢У д©╬ъ гу╢о╢ы.");
+			System.out.println("К█■ Л╩╓Л∙╪ М∙╘К▀┬К▀╓.");
 			break;
 		case (5):
-			System.out.println("5ют╢о╢ы.");
+			System.out.println("5Л·┘К▀┬К▀╓.");
 			break;
 		}
 }

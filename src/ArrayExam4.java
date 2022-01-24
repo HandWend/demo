@@ -1,6 +1,6 @@
 /**
- * ±¹¿µ¼ö ¼ºÀûÃ³¸®ÇÁ·Î±×·¥
- * ±¹¿µ¼ö °¢°¢, ÃÑÇÕ, Æò±Õ
+ * êµ­ì˜ìˆ˜ ì„±ì ì²˜ë¦¬í”„ë¡œê·¸ë¨
+ * êµ­ì˜ìˆ˜ ê°ê°, ì´í•©, í‰ê· 
  * @author smart02
  *
  */
@@ -17,8 +17,8 @@ public class ArrayExam4 {
 		math = 70;
 		total = kor + eng + math;
 		avg = total / 3;
-		System.out.printf("±¹¾î:%d, ¿µ¾î:%d, ¼öÇĞ:%d\n", kor, eng, math );
-		System.out.printf("ÃÑÇÕ: %d, Æò±Õ: %.1f", total, avg);
+		System.out.printf("êµ­ì–´:%d, ì˜ì–´:%d, ìˆ˜í•™:%d\n", kor, eng, math );
+		System.out.printf("ì´í•©: %d, í‰ê· : %.1f", total, avg);
 		double [] grade = {kor, eng, math, total, avg};
 		
 	}

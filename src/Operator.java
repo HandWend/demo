@@ -4,18 +4,18 @@ public class Operator {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/*
-		 * ´ÜÇ×¿¬»êÀÚ
-		 * ÀÌÇ×¿¬»êÀÚ
-		 * »ïÇ×¿¬»êÀÚ
+		 * ë‹¨í•­ì—°ì‚°ì
+		 * ì´í•­ì—°ì‚°ì
+		 * ì‚¼í•­ì—°ì‚°ì
 		 */
 		
-		// ´ÜÇ×¿¬»êÀÚ
+		// ë‹¨í•­ì—°ì‚°ì
 		// x++;
 		
-		// ÀÌÇ×¿¬»êÀÚ
+		// ì´í•­ì—°ì‚°ì
 		// x + y;
 		
-		// »ïÇ×¿¬»êÀÚ
+		// ì‚¼í•­ì—°ì‚°ì
 		//(x == y) ? x : y / ()=if, x=true, y=false
 	}
 

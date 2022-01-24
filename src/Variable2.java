@@ -17,10 +17,10 @@ public class Variable2 {
 		boolean sw= true;	
 		boolean sw2= false;
 		
-		System.out.println("±Û\tÀÚ");		// word [tab] word
-		System.out.println("±Û\nÀÚ");		// word [enter] word
-		System.out.println("±Û\"ÀÚ");  	// word ["] word
-		System.out.println("±Û\\ÀÚ"); 	// word [\] word
+		System.out.println("ê¸€\tì");		// word [tab] word
+		System.out.println("ê¸€\nì");		// word [enter] word
+		System.out.println("ê¸€\"ì");  	// word ["] word
+		System.out.println("ê¸€\\ì"); 	// word [\] word
 		System.out.println(b);
 		System.out.println(i);
 		System.out.println(l);

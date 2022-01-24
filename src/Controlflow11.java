@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * ¿ùº° ÇÁ·Î±×·¥ ÀÛ¼ºÇÏ½Ã¿À
+ * ì›”ë³„ í”„ë¡œê·¸ë¨ ì‘ì„±í•˜ì‹œì˜¤
  * @author smart02
  *
  */
@@ -9,36 +9,36 @@ public class Controlflow11 {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in); // ½ºÄ³³Ê Å¬·¡½º
-		System.out.println("³âÂ÷¸¦ ÀÔ·ÂÇÏ¼¼¿ä."); 
+		Scanner scan = new Scanner(System.in); // ìŠ¤ìºë„ˆ í´ë˜ìŠ¤
+		System.out.println("ë…„ì°¨ë¥¼ ì…ë ¥í•˜ì„¸ìš”."); 
 		
 		
-		int longevity = 0; // 1³âÂ÷
+		int longevity = 0; // 1ë…„ì°¨
 		
 		do {
-			System.out.println("usage: ¾ç¼ı°ªÀ» ÀÔ·ÂÇÏ¼¼¿ä");
+			System.out.println("usage: ì–‘ìˆ«ê°’ì„ ì…ë ¥í•˜ì„¸ìš”");
 			longevity = scan.nextInt();
 		} while (longevity<1);
 		
-		int longevityYear = longevity / 12;  // ³âÀ» ¿ù·Î °è»ê.
+		int longevityYear = longevity / 12;  // ë…„ì„ ì›”ë¡œ ê³„ì‚°.
 		if (longevity %12 >0 ) { 			 
-			longevityYear ++;				 // ³ª¸ÓÁö°¡ »ı±â¸é +1
+			longevityYear ++;				 // ë‚˜ë¨¸ì§€ê°€ ìƒê¸°ë©´ +1
 		}
-		// ÀÔ»ç ÈÄ ½ÅÀÔ»ç¿øÀÇ °ªÀº 11°³·Î ÅëÇÕ°è»ê.
+		// ì…ì‚¬ í›„ ì‹ ì…ì‚¬ì›ì˜ ê°’ì€ 11ê°œë¡œ í†µí•©ê³„ì‚°.
 		switch (longevityYear) {
-		case 1: System.out.println("¿¬Â÷°¹¼ö°¡ "+(longevity - 1)+"°³"); break; 
-		// 2°³¿ù 1°³, 3°³¿ù 2°³, 4°³¿ù 3°³, 5°³¿ù 4°³ µî ÇÏ³ª¾¿ »©ÁÖ±â.
-		case 2: System.out.println("15°³"); break;
-		case 3: case 4: System.out.println("16°³"); break;
-		case 5: case 6: System.out.println("17°³"); break;
-		case 7: case 8: System.out.println("18°³"); break;
-		case 9: case 10: System.out.println("19°³"); break;
-		case 11: case 12: System.out.println("20°³"); break;
-		case 13: case 14: System.out.println("21°³"); break;
-		case 15: case 16: System.out.println("22°³"); break;
-		case 17: case 18: System.out.println("23°³"); break;
-		case 19: case 20: System.out.println("24°³"); break;
-		default: System.out.println("25°³"); break;
+		case 1: System.out.println("ì—°ì°¨ê°¯ìˆ˜ê°€ "+(longevity - 1)+"ê°œ"); break; 
+		// 2ê°œì›” 1ê°œ, 3ê°œì›” 2ê°œ, 4ê°œì›” 3ê°œ, 5ê°œì›” 4ê°œ ë“± í•˜ë‚˜ì”© ë¹¼ì£¼ê¸°.
+		case 2: System.out.println("15ê°œ"); break;
+		case 3: case 4: System.out.println("16ê°œ"); break;
+		case 5: case 6: System.out.println("17ê°œ"); break;
+		case 7: case 8: System.out.println("18ê°œ"); break;
+		case 9: case 10: System.out.println("19ê°œ"); break;
+		case 11: case 12: System.out.println("20ê°œ"); break;
+		case 13: case 14: System.out.println("21ê°œ"); break;
+		case 15: case 16: System.out.println("22ê°œ"); break;
+		case 17: case 18: System.out.println("23ê°œ"); break;
+		case 19: case 20: System.out.println("24ê°œ"); break;
+		default: System.out.println("25ê°œ"); break;
 		}
 		
 	}

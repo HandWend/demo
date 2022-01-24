@@ -2,14 +2,14 @@
 public class Controlflow6 {
 
 	public static void main(String[] args) {
-		// if¹®
+		// ifë¬¸
 		int i = 4;
 		if (i > 5) {
-				System.out.println("5º¸´Ù Å®´Ï´Ù.");
+				System.out.println("5ë³´ë‹¤ í½ë‹ˆë‹¤.");
 		} else if (i == 5) {  
-				System.out.println("5¶û °°½À´Ï´Ù.");
+				System.out.println("5ë‘ ê°™ìŠµë‹ˆë‹¤.");
 		} else  {
-			System.out.println("5º¸´Ù ÀÛ½À´Ï´Ù.");
+			System.out.println("5ë³´ë‹¤ ì‘ìŠµë‹ˆë‹¤.");
 			
 		}
 }

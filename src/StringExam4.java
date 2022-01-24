@@ -1,5 +1,5 @@
 /**
- * ÁÖ¾îÁø ¹è¿­ ¾È¿¡¼­ max °ªÀ» Ãâ·ÂÇØ¶ó. (for ±¸¹® »ç¿ë)
+ * ì£¼ì–´ì§„ ë°°ì—´ ì•ˆì—ì„œ max ê°’ì„ ì¶œë ¥í•´ë¼. (for êµ¬ë¬¸ ì‚¬ìš©)
  * @author smart02
  *
  */
@@ -14,7 +14,7 @@ public class StringExam4 {
 		int sum = 0;
 		double avg = 0.0;
 
-		// write here with for ÁßÃ¸¹®
+		// write here with for ì¤‘ì²©ë¬¸
 		for (int i = 0; i<arr.length; i++) {
 			System.out.println(arr[i]);
 			

@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 /**
- * ±¹¿µ¼ö ¼ºÀûÃ³¸®ÇÁ·Î±×·¥
- * ±¹¿µ¼ö °¢°¢, ÃÑÇÕ, Æò±Õ
+ * êµ­ì˜ìˆ˜ ì„±ì ì²˜ë¦¬í”„ë¡œê·¸ë¨
+ * êµ­ì˜ìˆ˜ ê°ê°, ì´í•©, í‰ê· 
  * @author smart02
  *
  */
@@ -14,17 +14,17 @@ public class ArrayExam5 {
 		
 		
 		int [] grade = new int [5];
-		System.out.println(grade.length); // ¹è¿­ÀÇ ±æÀÌ
-		System.out.println("±¹¾î¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println(grade.length); // ë°°ì—´ì˜ ê¸¸ì´
+		System.out.println("êµ­ì–´ì„±ì ì„ ì…ë ¥í•˜ì‹œì˜¤");
 		grade[0] = scan.nextInt();
-		System.out.println("¼öÇĞ¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ìˆ˜í•™ì„±ì ì„ ì…ë ¥í•˜ì‹œì˜¤");
 		grade[1] = scan.nextInt();
-		System.out.println("¿µ¾î¼ºÀûÀ» ÀÔ·ÂÇÏ½Ã¿À");
+		System.out.println("ì˜ì–´ì„±ì ì„ ì…ë ¥í•˜ì‹œì˜¤");
 		grade[2] = scan.nextInt();
 		grade[3] = grade[0] + grade[1] + grade[2];
 		grade[4] = grade[3] / 3;
-		System.out.printf("±¹¾î:%d, ¿µ¾î:%d, ¼öÇĞ:%d\n", grade[0], grade[1], grade[2] );
-		System.out.printf("ÃÑÇÕ: %d, Æò±Õ: %d", grade[3], grade[4]);
+		System.out.printf("êµ­ì–´:%d, ì˜ì–´:%d, ìˆ˜í•™:%d\n", grade[0], grade[1], grade[2] );
+		System.out.printf("ì´í•©: %d, í‰ê· : %d", grade[3], grade[4]);
 		System.out.println();
 	}
 

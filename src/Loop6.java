@@ -4,13 +4,13 @@ import java.util.Date;
 /**
 * 
 * @author smart02
-* 2022³â ´Ş·ÂÀ» Ãâ·ÂÇÏ½Ã¿À. 
+* 2022ë…„ ë‹¬ë ¥ì„ ì¶œë ¥í•˜ì‹œì˜¤. 
 */
 public class Loop6 {
 
 	public static void main(String[] args) {
 		//int sec = (60*60*14)+(32*60);
-		// System.out.println(sec); // ÀüÃ¼ÃÊ
+		// System.out.println(sec); // ì „ì²´ì´ˆ
 		//for (int i = 0; i < 10; i++)
 		
 		SimpleDateFormat format = new SimpleDateFormat("hh:mm:dd");
@@ -22,9 +22,9 @@ public class Loop6 {
 			
 			/*sec++;
 			
-			System.out.print((sec)/(60*60) + "½Ã "); // ½Ã
-			System.out.print(((sec)%(60*60))/60 + "ºĞ "); // ºĞ
-			System.out.println(((sec)%(60*60))%60 + "ÃÊ"); // ÃÊ
+			System.out.print((sec)/(60*60) + "ì‹œ "); // ì‹œ
+			System.out.print(((sec)%(60*60))/60 + "ë¶„ "); // ë¶„
+			System.out.println(((sec)%(60*60))%60 + "ì´ˆ"); // ì´ˆ
 			*/
 			
 			try {

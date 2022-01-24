@@ -2,14 +2,14 @@
 public class Controlflow5 {
 
 	public static void main(String[] args) {
-		// if¹®
+		// ifë¬¸
 		int i = 60;
 		
 		switch (i)  {
 		
 		case 90:
-			// °ªÀ» ¾Ë°í ÀÖÀ» ¶§ switch¹® ÀÛ¼º.
-			if (i >= 90) { // if´Â ¹üÀ§ ÁöÁ¤.
+			// ê°’ì„ ì•Œê³  ìžˆì„ ë•Œ switchë¬¸ ìž‘ì„±.
+			if (i >= 90) { // ifëŠ” ë²”ìœ„ ì§€ì •.
 				System.out.println("A");
 			System.out.println("A");}
 			break;
@@ -31,7 +31,7 @@ public class Controlflow5 {
 		
 		}
 
-		if (i >= 90) { // if´Â ¹üÀ§ ÁöÁ¤.
+		if (i >= 90) { // ifëŠ” ë²”ìœ„ ì§€ì •.
 			System.out.println("A");
 		} else if (i >= 80) {
 			System.out.println("B");

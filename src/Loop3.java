@@ -1,14 +1,14 @@
 /**
 * 
 * @author smart02
-* 2022³âºÎÅÍ º»ÀÎÀÇ »ı³â±îÁö ¹İº¹ÇØ¼­ Ãâ·Â.
+* 2022ë…„ë¶€í„° ë³¸ì¸ì˜ ìƒë…„ê¹Œì§€ ë°˜ë³µí•´ì„œ ì¶œë ¥.
 */
 public class Loop3 {
 
 	public static void main(String[] args) {
 		int myAge=1998;
 		for (int p = 2022; p>=myAge; p--) {
-			System.out.printf("³âµµ %d, ³ªÀÌ %d%n", p, p - (myAge-1));
+			System.out.printf("ë…„ë„ %d, ë‚˜ì´ %d%n", p, p - (myAge-1));
 		}
 	}
 }

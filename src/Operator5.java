@@ -2,27 +2,27 @@
 public class Operator5 {
 
 	public static void main(String[] args) { // country
-		// ´ëÀÔ¿¬»êÀÚ (=, +=, -=, *=, /=, %= ...)
+		// ëŒ€ì…ì—°ì‚°ì (=, +=, -=, *=, /=, %= ...)
 		System.out.println("--------------------------");
 		{	
-			// += ¿¬»êÀÚ
+			// += ì—°ì‚°ì
 			int x = 1, y = 2;
 			// x = x + y;
 			x+=y;
 			System.out.println(x);	
 		}
 		{
-			// -= ¿¬»êÀÚ
+			// -= ì—°ì‚°ì
 			int x = 1, y = 2;
 			// x = x -y;
 			x-=y;
 			System.out.println(x);	
 		}
 		{
-			// »ïÇ×¿¬»êÀÚ (Á¶°Ç¹®) ? Âü:°ÅÁş;
-			// ½ÃÇè¼ºÀûÀÌ 60Á¡ ¹Ì¸¸ÀÌ¸é Àç½ÃÇè, ÀÌ»óÀÌ¸é Åë°ú
+			// ì‚¼í•­ì—°ì‚°ì (ì¡°ê±´ë¬¸) ? ì°¸:ê±°ì§“;
+			// ì‹œí—˜ì„±ì ì´ 60ì  ë¯¸ë§Œì´ë©´ ì¬ì‹œí—˜, ì´ìƒì´ë©´ í†µê³¼
 			int score = 100;
-			String str = (score < 60) ? "Àç½ÃÇè" : "Pass";
+			String str = (score < 60) ? "ì¬ì‹œí—˜" : "Pass";
 			System.out.println(str);	
 			
 		}	

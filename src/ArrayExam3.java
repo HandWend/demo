@@ -2,7 +2,7 @@
 public class ArrayExam3 {
 
 	public static void main(String[] args) {
-		int [] j = {10, 20, 30}; // {} »ı¼º°ú µ¿½Ã¿¡ °ªÀ» ÀÔ·ÂÇØÁÖ´Â °Í.
+		int [] j = {10, 20, 30}; // {} ìƒì„±ê³¼ ë™ì‹œì— ê°’ì„ ì…ë ¥í•´ì£¼ëŠ” ê²ƒ.
 		System.out.println(j);
 
 	}

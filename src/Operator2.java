@@ -2,20 +2,20 @@
 public class Operator2 {
 
 	public static void main(String[] args) { // country
-		// »ê¼ú¿¬»êÀÚ [+ - * / %]
+		// ì‚°ìˆ ì—°ì‚°ì [+ - * / %]
 		double i = 10;
 		int j = 3;
-		// double°ú intÀÇ ¿¬»êÀº doubleÃ³·³ ³ª¿È.
+		// doubleê³¼ intì˜ ì—°ì‚°ì€ doubleì²˜ëŸ¼ ë‚˜ì˜´.
 		
-		System.out.printf("%2.2f + %d = %2.2f\n", i, j, i+j); // ´õÇÏ±â
-		System.out.println(i-j); // »©±â
-		System.out.println(i*j); // °öÇÏ±â
-		System.out.println(i/j); // ³ª´©±â
+		System.out.printf("%2.2f + %d = %2.2f\n", i, j, i+j); // ë”í•˜ê¸°
+		System.out.println(i-j); // ë¹¼ê¸°
+		System.out.println(i*j); // ê³±í•˜ê¸°
+		System.out.println(i/j); // ë‚˜ëˆ„ê¸°
 		System.out.printf("%.1f\n",i%j);
 		System.out.printf("%.2f\n",i%j);
 		System.out.printf("%.3f\n",i%j);
 		
-		System.out.println(i%j); // ³ª¸ÓÁö
+		System.out.println(i%j); // ë‚˜ë¨¸ì§€
 		
 		
 	}

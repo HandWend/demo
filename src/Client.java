@@ -5,47 +5,47 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 /**
- * Å¬¶óÀÌ¾ğÆ® ¼ÒÄÏ ÄÚµå
+ * í´ë¼ì´ì–¸íŠ¸ ì†Œì¼“ ì½”ë“œ
  * @author smart02
  *
  */
 public class Client {
-	// »ó¼öÀÇ ¹®ÀÚ¸íÀº ÀüºÎ ´Ù ´ë¹®ÀÚ.
-	// ´Ü¾î¿Í ´Ü¾î »çÀÌÀÇ ¸¸³¯ ¶§´Â (_, ¾ğ´õ¹Ù Ãß°¡)
+	// ìƒìˆ˜ì˜ ë¬¸ìëª…ì€ ì „ë¶€ ë‹¤ ëŒ€ë¬¸ì.
+	// ë‹¨ì–´ì™€ ë‹¨ì–´ ì‚¬ì´ì˜ ë§Œë‚  ë•ŒëŠ” (_, ì–¸ë”ë°” ì¶”ê°€)
 	final static String SERVER_IP = "127.0.0.1";
-	//  ÁÖ¼Ò, ÀÚ±âÀÚ½Å °¡¸£Å´.
+	//  ì£¼ì†Œ, ìê¸°ìì‹  ê°€ë¥´í‚´.
 	final static int SERVER_PORT = 1225;
 	final static String MASSAGE_TO_SERVER = "Hi, Server";
-	// final = ¼öÁ¤ ºÒ°¡.
+	// final = ìˆ˜ì • ë¶ˆê°€.
 	public static void main(String[] args) {
 		Socket socket = null;
-		// Ã¹ ±ÛÀÚ°¡ ´ë¹®ÀÚ´Â Å¬·¡½º. ±âº»°ª null·Î ¼³Á¤.
+		// ì²« ê¸€ìê°€ ëŒ€ë¬¸ìëŠ” í´ë˜ìŠ¤. ê¸°ë³¸ê°’ nullë¡œ ì„¤ì •.
 		try {
 			socket = new Socket(SERVER_IP, SERVER_PORT);
-			// try - catch Å¬¸¯ÇØ ÁÖ±â.
-			System.out.println("socket ¿¬°á");
+			// try - catch í´ë¦­í•´ ì£¼ê¸°.
+			System.out.println("socket ì—°ê²°");
 			
 			InputStream is = socket.getInputStream();
 			OutputStream os = socket.getOutputStream();
 			
-			// buffer¸¦ ÅëÇØ µ¥ÀÌÅÍ ÀĞ¾îµéÀÌ±â
+			// bufferë¥¼ í†µí•´ ë°ì´í„° ì½ì–´ë“¤ì´ê¸°
 			
-			// byte·Î ¹Ş°Ú´Ù.
+			// byteë¡œ ë°›ê² ë‹¤.
 			os.write(MASSAGE_TO_SERVER.getBytes());
 			os.flush();
 			
 			byte[] data = new byte[16];
 			int n = is.read(data);
-			// °Ì³ª ±æ°Ô ¿Íµµ Ã³À½ºÎÅÍ 16±ÛÀÚ±îÁö¸¸ ¹Ş¾ÆµéÀÌ°Ú´Ù.
+			// ê²ë‚˜ ê¸¸ê²Œ ì™€ë„ ì²˜ìŒë¶€í„° 16ê¸€ìê¹Œì§€ë§Œ ë°›ì•„ë“¤ì´ê² ë‹¤.
 			final String messageFromClient = new String(data,0,n);
-			// clientÀÇ ¸Ş½ÃÁö Ãâ·Â.
+			// clientì˜ ë©”ì‹œì§€ ì¶œë ¥.
 			System.out.println(messageFromClient);
 			
 			is.close();
 			os.close();
 			
 			socket.close();
-			// socketÀº ²À ¾²°í ´İ¾ÆÁÙ °Í.
+			// socketì€ ê¼­ ì“°ê³  ë‹«ì•„ì¤„ ê²ƒ.
 		}  catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

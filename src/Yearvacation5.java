@@ -1,23 +1,23 @@
 public class Yearvacation5 {
 
 	public static void main(String[] args) {
-		// ¿¬Â÷ ³¯Â¥ ¾Ë·ÁÁÖ±â
-		int i = 2*12-1;// (´ÜÀ§: ¿ù)
-		// 2³â¸¶´Ù ¿¬Â÷ 1ÀÏ Áõ°¡, 20³âÂ÷ºÎÅÍ´Â ¹«Á¶°Ç 25ÀÏ
+		// ì—°ì°¨ ë‚ ì§œ ì•Œë ¤ì£¼ê¸°
+		int i = 2*12-1;// (ë‹¨ìœ„: ì›”)
+		// 2ë…„ë§ˆë‹¤ ì—°ì°¨ 1ì¼ ì¦ê°€, 20ë…„ì°¨ë¶€í„°ëŠ” ë¬´ì¡°ê±´ 25ì¼
 		switch (i/12) {
-		case 0: System.out.println("ÀÔ»ç ÇÑ´Ş ÈÄ ÇÏ³ªÀÇ ¿¬Â÷°¡ »ı±é´Ï´Ù."); break;
-		case 1: System.out.println("ÀÔ»ç ÈÄ ÇÑ ´Ş°£ »ç¿ëÇÏÁö ¾Ê¾ÒÀ¸¸é 11ÀÏ"); break;
-		case 2: System.out.println("15ÀÏ"); break;
-		case 3: case 4: System.out.println("16ÀÏ"); break;
-		case 5: case 6: System.out.println("17ÀÏ"); break;
-		case 7: case 8: System.out.println("18ÀÏ"); break;
-		case 9: case 10: System.out.println("19ÀÏ"); break;
-		case 11: case 12: System.out.println("20ÀÏ"); break;
-		case 13: case 14: System.out.println("21ÀÏ"); break;
-		case 15: case 16: System.out.println("22ÀÏ"); break;
-		case 17: case 18: System.out.println("23ÀÏ"); break;
-		case 19: case 20: System.out.println("24ÀÏ"); break; 
-		default : System.out.println("25ÀÏ");
+		case 0: System.out.println("ì…ì‚¬ í•œë‹¬ í›„ í•˜ë‚˜ì˜ ì—°ì°¨ê°€ ìƒê¹ë‹ˆë‹¤."); break;
+		case 1: System.out.println("ì…ì‚¬ í›„ í•œ ë‹¬ê°„ ì‚¬ìš©í•˜ì§€ ì•Šì•˜ìœ¼ë©´ 11ì¼"); break;
+		case 2: System.out.println("15ì¼"); break;
+		case 3: case 4: System.out.println("16ì¼"); break;
+		case 5: case 6: System.out.println("17ì¼"); break;
+		case 7: case 8: System.out.println("18ì¼"); break;
+		case 9: case 10: System.out.println("19ì¼"); break;
+		case 11: case 12: System.out.println("20ì¼"); break;
+		case 13: case 14: System.out.println("21ì¼"); break;
+		case 15: case 16: System.out.println("22ì¼"); break;
+		case 17: case 18: System.out.println("23ì¼"); break;
+		case 19: case 20: System.out.println("24ì¼"); break; 
+		default : System.out.println("25ì¼");
 		}
 		
 		 

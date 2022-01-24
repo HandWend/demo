@@ -1,14 +1,16 @@
 
 public class Method3 {
 	
-	public static void aaa() { 
-		System.out.println("aaa() ÇÔ¼ö°¡ È£ÃâµÇ¾ú½À´Ï´Ù.");
+	public static void aaa(int i) { 
+		System.out.println((++i) + "ê°€ í˜¸ì¶œë˜ì—ˆìŠµë‹ˆë‹¤."  );
 	}
 	
 
 
 	public static void main(String[] args) { // main method
-		aaa();
+		int i = 24;
+		aaa(i);
+		System.out.println(i);
 	}
 
 }

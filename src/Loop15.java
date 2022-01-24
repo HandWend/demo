@@ -1,7 +1,7 @@
 /**
- * 369 3ÀÇ ¹è¼öÀÏ ¶© Â¦! 
- * System.out.println("Â¦");
- * @author smart02 ¡Ú
+ * 369 3ì˜ ë°°ìˆ˜ì¼ ë• ì§! 
+ * System.out.println("ì§");
+ * @author smart02 â˜…
  */
 public class Loop15 {
 

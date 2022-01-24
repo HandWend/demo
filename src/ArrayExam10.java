@@ -10,7 +10,7 @@ public class ArrayExam10 {
 						{ 4, 6, 13, 20, 22 },
 						{23, 5, 7, 14, 16},
 						{17, 24, 1, 8, 15}
-							}; // ∏∂πÊ¡¯ √º≈©
+							}; // ÎßàÎ∞©ÏßÑ Ï≤¥ÌÅ¨
 		// 1
 		int rowCntChk = 0;
 		for (int i = 0; i < arr.length; i++) {
@@ -21,20 +21,20 @@ public class ArrayExam10 {
 			}
 		}
 		if (rowCntChk != (65*5)) {
-			System.out.println("ø¿¥‰");
+			System.out.println("Ïò§Îãµ");
 			return;
 		}
 		int colCntChk = 0;
-		// ºº∑Œ∞™ 15√º≈©
+		// ÏÑ∏Î°úÍ∞í 15Ï≤¥ÌÅ¨
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				colCntChk += arr[j][i];
 			}
 		}
 		if (colCntChk!=65*5) {
-			System.out.println("ø¿¥‰");
+			System.out.println("Ïò§Îãµ");
 			return;
-		}; // ø≠ √º≈©
+		}; // Ïó¥ Ï≤¥ÌÅ¨
 		int leftTop = 0;
 		for (int i = 0; i < arr.length; i++) {
 			// 2
@@ -45,7 +45,7 @@ public class ArrayExam10 {
 			}
 		}
 		if (leftTop != 65) {
-			System.out.println("ø¿¥‰");
+			System.out.println("Ïò§Îãµ");
 			return;
 		}
 		int rightTop = 0;
@@ -58,9 +58,9 @@ public class ArrayExam10 {
 			}
 		}
 		if (rightTop != 65) {
-			System.out.println("ø¿¥‰");
+			System.out.println("Ïò§Îãµ");
 			return;
 		}
-		System.out.println("¡§¥‰");
+		System.out.println("Ï†ïÎãµ");
 	}
 }

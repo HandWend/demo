@@ -1,5 +1,5 @@
 /**
- * ÁÖ¾îÁø ¹è¿­ ¾È¿¡¼­ max °ªÀ» Ãâ·ÂÇØ¶ó. (for ±¸¹® »ç¿ë)
+ * ì£¼ì–´ì§„ ë°°ì—´ ì•ˆì—ì„œ max ê°’ì„ ì¶œë ¥í•´ë¼. (for êµ¬ë¬¸ ì‚¬ìš©)
  * @author smart02
  *
  */
@@ -9,7 +9,7 @@ public class StringExam3 {
 		int max = 0;
 		int[] arr = {1, 5, 3, 8, 2};
 		
-		// ÀÛ¼º½ÃÀÛ
+		// ì‘ì„±ì‹œì‘
 		for (int i = 0; i<arr.length; i++) {
 				if (arr[i] > max) {
 					max = arr[i];

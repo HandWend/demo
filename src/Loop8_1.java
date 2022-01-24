@@ -2,16 +2,16 @@ import java.util.Scanner;
 /**
 * 
 * @author smart02
-* ÇÇº¸³ªÄ¡ ¼ö¿­ (while)
-* scanner·Î ¹İº¹ È½¼ö ÀÔ·Â¹Ş¾Æ¼­ Ãâ·ÂÇÏ±â
+* í”¼ë³´ë‚˜ì¹˜ ìˆ˜ì—´ (while)
+* scannerë¡œ ë°˜ë³µ íšŸìˆ˜ ì…ë ¥ë°›ì•„ì„œ ì¶œë ¥í•˜ê¸°
 */
 public class Loop8_1 {
 
 	public static void main(String[] args) {
-		int m = 0; // ¾Õ ¼ıÀÚ
-		int n = 1; // µÚ ¼ıÀÚ
-		int r = 1; // ¹İº¹ÇÏ´Â ¼ö
-		int o = m + n; // ¹Ş´Â ¼ö
+		int m = 0; // ì• ìˆ«ì
+		int n = 1; // ë’¤ ìˆ«ì
+		int r = 1; // ë°˜ë³µí•˜ëŠ” ìˆ˜
+		int o = m + n; // ë°›ëŠ” ìˆ˜
 		while (r <= 7 ) {
 			System.out.printf("%d %d %d \n", m,n,o);
 			m = n;

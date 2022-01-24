@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * È¦Â¦ È®ÀÎ ÇÁ·Î±×·¥ ÀÛ¼ºÇÏ½Ã¿À
+ * í™€ì§ í™•ì¸ í”„ë¡œê·¸ë¨ ì‘ì„±í•˜ì‹œì˜¤
  * @author smart02
  *
  */
@@ -9,24 +9,24 @@ public class Controlflow10 {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in); // ½ºÄ³³Ê Å¬·¡½º
-		System.out.println("³âÂ÷¸¦ ÀÔ·ÂÇÏ¼¼¿ä.");
+		Scanner scan = new Scanner(System.in); // ìŠ¤ìºë„ˆ í´ë˜ìŠ¤
+		System.out.println("ë…„ì°¨ë¥¼ ì…ë ¥í•˜ì„¸ìš”.");
 		
 		
-		int longevity = scan.nextInt(); // 1³âÂ÷
+		int longevity = scan.nextInt(); // 1ë…„ì°¨
 		switch (longevity) {
-		case 1: System.out.println("11°³"); break;
-		case 2: System.out.println("15°³"); break;
-		case 3: case 4: System.out.println("16°³"); break;
-		case 5: case 6: System.out.println("17°³"); break;
-		case 7: case 8: System.out.println("18°³"); break;
-		case 9: case 10: System.out.println("19°³"); break;
-		case 11: case 12: System.out.println("20°³"); break;
-		case 13: case 14: System.out.println("21°³"); break;
-		case 15: case 16: System.out.println("22°³"); break;
-		case 17: case 18: System.out.println("23°³"); break;
-		case 19: case 20: System.out.println("24°³"); break;
-		default: System.out.println("25°³"); break;
+		case 1: System.out.println("11ê°œ"); break;
+		case 2: System.out.println("15ê°œ"); break;
+		case 3: case 4: System.out.println("16ê°œ"); break;
+		case 5: case 6: System.out.println("17ê°œ"); break;
+		case 7: case 8: System.out.println("18ê°œ"); break;
+		case 9: case 10: System.out.println("19ê°œ"); break;
+		case 11: case 12: System.out.println("20ê°œ"); break;
+		case 13: case 14: System.out.println("21ê°œ"); break;
+		case 15: case 16: System.out.println("22ê°œ"); break;
+		case 17: case 18: System.out.println("23ê°œ"); break;
+		case 19: case 20: System.out.println("24ê°œ"); break;
+		default: System.out.println("25ê°œ"); break;
 		}
 		
 	}

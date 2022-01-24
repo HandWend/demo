@@ -2,14 +2,14 @@
 public class Operator4 {
 
 	public static void main(String[] args) { // country
-		{	// »ê¼ú > ºñ±³ > ³í¸® > ´ëÀÔ
-			// ´ÜÇ× > ÀÌÇ× > »ïÇ×
-			// Áõ°¨¿¬»êÀÚ ++, --
+		{	// ì‚°ìˆ  > ë¹„êµ > ë…¼ë¦¬ > ëŒ€ì…
+			// ë‹¨í•­ > ì´í•­ > ì‚¼í•­
+			// ì¦ê°ì—°ì‚°ì ++, --
 			int i = 0;
-			i++; // ÈÄÀ§¿¬»êÀÚ
+			i++; // í›„ìœ„ì—°ì‚°ì
 			i++; 
 			System.out.println(i);
-			++i; // ÀüÀ§¿¬»êÀÚ
+			++i; // ì „ìœ„ì—°ì‚°ì
 			System.out.println(i);
 		}
 		{
@@ -36,7 +36,7 @@ public class Operator4 {
 			System.out.println(i);
 		}
 		{
-			// ºÎÁ¤¿¬»êÀÚ !
+			// ë¶€ì •ì—°ì‚°ì !
 			boolean b = false;
 			System.out.println("--------------------------");
 			System.out.println(b);
@@ -44,7 +44,7 @@ public class Operator4 {
 			
 		}
 		{
-			// ºñ±³¿¬»êÀÚ >, >=, <, <=, ==, != °á°ú´Â boolean type
+			// ë¹„êµì—°ì‚°ì >, >=, <, <=, ==, != ê²°ê³¼ëŠ” boolean type
 			int m = 10, n = 5;
 			System.out.println("--------------------------");
 			System.out.println(m > n);
@@ -55,10 +55,10 @@ public class Operator4 {
 			System.out.println(m != n);
 		}
 		{
-			// ³í¸®¿¬»êÀÚ ( and[&&] or[[||] nor[!] )
-			// &&: µÑ´Ù trueÀÏ ¶§¸¸ true
-			// ||: ÇÏ³ª°¡ true¸é true
-			// ^: ÇÏ³ª¸¸ true¿©¾ß true
+			// ë…¼ë¦¬ì—°ì‚°ì ( and[&&] or[[||] nor[!] )
+			// &&: ë‘˜ë‹¤ trueì¼ ë•Œë§Œ true
+			// ||: í•˜ë‚˜ê°€ trueë©´ true
+			// ^: í•˜ë‚˜ë§Œ trueì—¬ì•¼ true
 			System.out.println("--------------------------");
 			System.out.println(false && false);
 			System.out.println(false && true);
@@ -92,24 +92,24 @@ public class Operator4 {
 			System.out.println(true && !true);
 		}
 		{
-			// ºñÆ®¿¬»êÀÚ &(and) |(or) ^(nor) ~(not) <<(shift) >> >>>
-			// &: µÑ ´Ù 1ÀÏ ¶§¸¸ 1
-			// |: 1ÀÌ ÇÏ³ª¶óµµ ÀÖÀ¸¸é 1
-			// ^: 1ÀÌ ÇÏ³ª¸¸ ÀÖ¾î¾ß 1, 2°³ ÀÖÀ¸¸é 0, ¾ø¾îµµ 0
+			// ë¹„íŠ¸ì—°ì‚°ì &(and) |(or) ^(nor) ~(not) <<(shift) >> >>>
+			// &: ë‘˜ ë‹¤ 1ì¼ ë•Œë§Œ 1
+			// |: 1ì´ í•˜ë‚˜ë¼ë„ ìˆìœ¼ë©´ 1
+			// ^: 1ì´ í•˜ë‚˜ë§Œ ìˆì–´ì•¼ 1, 2ê°œ ìˆìœ¼ë©´ 0, ì—†ì–´ë„ 0
 			byte bitNum1 = 15;
-			byte bitNum2 = 20; // ºñÆ®¿¬»êÀÚ¿¡ byte·Î
+			byte bitNum2 = 20; // ë¹„íŠ¸ì—°ì‚°ìì— byteë¡œ
 			System.out.println("--------------------------");
 			System.out.println(bitNum1 + bitNum2);
 			System.out.println(bitNum1 & bitNum2);
 			System.out.println(bitNum1 | bitNum2);
-			System.out.println(~bitNum1); // 1ÀÇ º¸¼ö(?)
-			System.out.println(~bitNum2); // ±âÁ¸°ª +1 ÈÄ (-) ±âÈ£ ¾ÕÀ¸·Î.
+			System.out.println(~bitNum1); // 1ì˜ ë³´ìˆ˜(?)
+			System.out.println(~bitNum2); // ê¸°ì¡´ê°’ +1 í›„ (-) ê¸°í˜¸ ì•ìœ¼ë¡œ.
 			System.out.println(bitNum1 ^ bitNum2);
 			System.out.println("--------------------------");
-			System.out.println(bitNum2<<1); // °öÇÏ±â 2 'ÇÑ ¹ø'
-			System.out.println(bitNum2>>1); // ³ª´©±â 2 'ÇÑ ¹ø'
-			System.out.println(bitNum2<<2); // °öÇÏ±â 2 'µÎ ¹ø'
-			System.out.println(bitNum2>>2); // ³ª´©±â 2 'µÎ ¹ø'
+			System.out.println(bitNum2<<1); // ê³±í•˜ê¸° 2 'í•œ ë²ˆ'
+			System.out.println(bitNum2>>1); // ë‚˜ëˆ„ê¸° 2 'í•œ ë²ˆ'
+			System.out.println(bitNum2<<2); // ê³±í•˜ê¸° 2 'ë‘ ë²ˆ'
+			System.out.println(bitNum2>>2); // ë‚˜ëˆ„ê¸° 2 'ë‘ ë²ˆ'
 			System.out.println(bitNum2 >>> 1);
 			System.out.println(~bitNum2 >>> 1);
 		}
