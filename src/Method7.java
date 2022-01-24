@@ -9,9 +9,10 @@ import java.util.Scanner;
 public class Method7 {
 	
 	public static void main(String[] args) { // main method
-		int i = 4;
+		int i = 5;
 		int j = 2;
 		int res = 0;
+		double res2 =0.;
 		res = add(i,j);		// 더하기
 		System.out.println(i +"+" + j +"=" + res);
 		
@@ -21,8 +22,8 @@ public class Method7 {
 		res = multiple(i,j);
 		System.out.println(i +"*" + j +"=" + res);
 		
-		res = divide(i,j);
-		System.out.println(i +"/" + j +"=" + res);
+		res2 = divide(i,j);
+		System.out.println(i +"/" + j +"=" + res2);
 		
 		res = remainder(i,j);
 		System.out.println(i +"%" + j +"=" + res);
@@ -38,8 +39,8 @@ public class Method7 {
 	public static int multiple(int i, int j) {
 		return i * j;
 	}
-	public static int divide(int i, int j) {
-		return i / j;
+	public static double divide(int i, int j) {
+		return (double)i / j;
 	}
 	public static int remainder(int i, int j) {
 		return i % j;
