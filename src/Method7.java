@@ -26,7 +26,8 @@ public class Method7 {
 		
 		res = remainder(i,j);
 		System.out.println(i +"%" + j +"=" + res);
-		
+		// 함수 안에 함수 넣는 것은 없다.
+		// main이 위에 있던 밑에 있던 상관없음.
 	}
 	private static int add(int i, int j) {
 		return i + j;
