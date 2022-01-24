@@ -9,7 +9,7 @@ public class Hello {
 		/* 한줄주석 */
 		System.out.println("Hello, Welcome to the java world");
  
-		
+		 
 	}
 
 }
