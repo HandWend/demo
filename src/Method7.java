@@ -11,7 +11,7 @@ public class Method7 {
 	public static void main(String[] args) { // main method
 		int i = 5;
 		int j = 2;
-		int res = 0; //SFSF
+		int res = 0; // 달라진 점 찾기
 		double res2 =0.;
 		res = add(i,j);		// 더하기DFD
 		System.out.println(i +"+" + j +"=" + res);
